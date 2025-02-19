@@ -23,7 +23,7 @@ public class Libro {
     public void mostrarDetalles() {
         System.out.println("Titulo: " + this.titulo);
         System.out.println("Autor: " + this.autor);
-        System.out.println("Numero de paginas: " + this.numeroDeLibros);
+        System.out.println("Numero de lirbos " + this.numeroDeLibros);
     }
 
     public static void main(String[] args) {
@@ -36,4 +36,10 @@ public class Libro {
         libro2.mostrarDetalles();
     }
 
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "El titulo del libro : " + titulo + ", Su autor es: " + autor + " y el numero de libros impresos son"
+                + numeroDeLibros;
+    }
 }

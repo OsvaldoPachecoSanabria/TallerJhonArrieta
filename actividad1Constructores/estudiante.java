@@ -21,4 +21,11 @@ public class estudiante {
         this(nombre, edad);
         this.curso = curso;
     }
+
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "Nombre de Estudiante : " + nombre + ", La edad del estudiante : " + edad + " Y el año escolar es : "
+                + curso;
+    }
 }

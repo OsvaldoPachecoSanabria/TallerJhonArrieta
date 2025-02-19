@@ -24,4 +24,12 @@ public class CuentaBancaria {
         this.numeroCuenta = numeroCuenta;
         this.saldo = saldo;
     }
+
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "El numero De cuenta es: " + numeroCuenta
+                + "El tipo De cuenta es: " + tipoCuenta +
+                "Y su saldo en la cuenta es: " + saldo;
+    }
 }

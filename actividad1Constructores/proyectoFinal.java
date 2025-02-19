@@ -24,7 +24,7 @@ public class proyectoFinal {
         libro1.titulo = scanner.nextLine();
         System.out.print("Autor: ");
         libro1.autor = scanner.nextLine();
-        System.out.print("Número de páginas: ");
+        System.out.print("Número de libros que se imprimiran: ");
         libro1.numeroDeLibros = scanner.nextInt();
         scanner.nextLine(); // Limpiar el buffer del scanner
 
@@ -48,5 +48,21 @@ public class proyectoFinal {
         System.out.print("Curso: ");
         estudiante1.curso = scanner.nextLine();
 
+        // Mostrar detalles de los objetos usando toString()
+        System.out.println(libro1.toString());
+        System.out.println(libro2.toString());
+        System.out.println(cuenta1.toString());
+        System.out.println(cuenta2.toString());
+        System.out.println(cuenta3.toString());
+        System.out.println(estudiante1.toString());
+        System.out.println(estudiante2.toString());
+        System.out.println(estudiante3.toString());
+
+        scanner.close();
+    }
+
+    @Override
+    public String toString() {
+        return "proyectoFinal{}";
     }
 }
