@@ -5,15 +5,20 @@ public class estudiante {
     int edad;
     String curso;
 
+    // Constructor Values genericos
     public estudiante() {
-        this.nombre = "Juanito";
-        this.edad = 15;
-        this.curso = "Decimo";
+        this("juanito", 15, "Decimo");
     }
 
+    // Constructor Only names y edad
     public estudiante(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
     }
 
+    // constructor que acepta todos los parametros minetras llama a otro
+    public estudiante(String nombre, int edad, String curso) {
+        this(nombre, edad);
+        this.curso = curso;
+    }
 }
