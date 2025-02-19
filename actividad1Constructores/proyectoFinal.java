@@ -28,5 +28,25 @@ public class proyectoFinal {
         libro1.numeroDeLibros = scanner.nextInt();
         scanner.nextLine(); // Limpiar el buffer del scanner
 
+        // Ingresar datos por consola para Cuenta 1
+        System.out.println("\nIngrese los datos de la cuenta 1:");
+        System.out.print("Número de cuenta: ");
+        cuenta1.numeroCuenta = scanner.nextLine();
+        System.out.print("Saldo: ");
+        cuenta1.saldo = scanner.nextDouble();
+        scanner.nextLine(); // Limpiar el buffer del scanner
+        System.out.print("Tipo de cuenta: ");
+        cuenta1.tipoCuenta = scanner.nextLine();
+
+        // Ingresar datos por consola para Estudiante 1
+        System.out.println("\nIngrese los datos del estudiante 1:");
+        System.out.print("Nombre: ");
+        estudiante1.nombre = scanner.nextLine();
+        System.out.print("Edad: ");
+        estudiante1.edad = scanner.nextInt();
+        scanner.nextLine(); // Limpiar el buffer del scanner
+        System.out.print("Curso: ");
+        estudiante1.curso = scanner.nextLine();
+
     }
 }
