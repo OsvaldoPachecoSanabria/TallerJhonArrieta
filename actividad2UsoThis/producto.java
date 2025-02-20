@@ -10,5 +10,10 @@ public class producto {
         this.nombre = nombre;
         this.precio = precio;
     }
+    // Metodo que muestre (imprima) los detalles de estudiante
 
+    public void mostrarDetalles() {
+        System.out.println("Nombre: " + this.nombre);
+        System.out.println("Precio: " + this.precio);
+    }
 }
