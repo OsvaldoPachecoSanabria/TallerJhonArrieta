@@ -1,4 +1,4 @@
-package actividad3;
+package actividad3.ejericio1Producto;
 
 public class ClaseProducto1 {
     String nombre;
@@ -10,5 +10,13 @@ public class ClaseProducto1 {
         this.nombre = nombre;
         this.precio = precio;
         this.stock = stock;
+    }
+
+    // metodo que muestre (imprima) los detalles de producto
+
+    public void mostrarInfo() {
+        System.out.println("Nombre: " + this.nombre);
+        System.out.println("Precio: " + this.precio);
+        System.out.println("Stock: " + this.stock);
     }
 }
