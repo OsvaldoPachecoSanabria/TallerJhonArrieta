@@ -5,11 +5,11 @@ public class CuentaBancaria {
     private double saldo;
     public String tipoDeCuenta;
 
-    public double getsaldo() {
+    public double getSaldo() {
         return saldo;
     }
 
-    public void setsaldo(double saldo) {
+    public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
