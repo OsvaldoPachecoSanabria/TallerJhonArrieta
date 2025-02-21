@@ -16,7 +16,7 @@ public class Utilidades {
 
     public static double division(int a, int b) {
         if (b == 0) {
-            throw new IllegalArgumentException("El divisor no puede ser cero");
+            System.out.println("No se puede dividir por cero");
         }
         return (double) a / b;
     }
