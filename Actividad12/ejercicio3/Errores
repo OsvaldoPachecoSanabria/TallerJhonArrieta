@@ -1,0 +1,14 @@
+Al intentar compilar MiClaseConcreta, obtendrás un error de compilación similar a este:
+
+Esto ocurre porque una clase concreta debe proporcionar implementaciones para todos los métodos abstractos de la interfaz que implementa.
+
+2. Métodos predeterminados en una clase abstracta
+Intentemos definir un método predeterminado en una clase abstracta MiClaseAbstracta.
+
+
+
+En este caso, no hay ningún problema en definir métodos concretos (predeterminados) 
+en una clase abstracta. De hecho, es una práctica común. La confusión puede surgir al 
+pensar que una clase abstracta no puede tener métodos concretos, pero esto no es cierto. Una clase abstracta puede tener tanto métodos abstractos como métodos concretos.
+
+La verdadera restricción es que una clase abstracta no puede ser instanciada directamente. Debe ser extendida por una clase concreta que proporcione implementaciones para todos los métodos abstractos.
