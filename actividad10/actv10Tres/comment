@@ -1,0 +1,7 @@
+Explicación del Error
+El intento de acceso directo al atributo privado atributoPrivado utilizando super en la clase derivada causará un error de compilación porque los atributos privados de una clase base no son accesibles directamente desde las clases derivadas. La única forma de acceder a estos atributos es a través de métodos públicos o protegidos (como getters) definidos en la clase base.
+
+El código comentado en la clase derivada muestra el intento incorrecto de acceso directo, mientras que el acceso correcto se realiza utilizando el método getter getAtributoPrivado().
+
+Resultado Esperado
+Al ejecutar la clase de prueba, deberías ver la salida correcta del valor del atributo privado utilizando el método getter:
