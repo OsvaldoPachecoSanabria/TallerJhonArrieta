@@ -1,6 +1,6 @@
 package actividad9.act1De9;
 
-public class Vehiculo {
+public abstract class Vehiculo {
     private String marca;
     private double velocidadMaxima;
 
