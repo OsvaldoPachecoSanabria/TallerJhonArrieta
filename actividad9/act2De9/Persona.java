@@ -25,7 +25,7 @@ public class Persona {
         this.edad = edad;
     }
 
-    public void SAmostrarInformacion() {
+    public void mostrarInformacion() {
         System.out.println("Nombre: " + nombre + ", Edad: " + edad);
     }
 }
